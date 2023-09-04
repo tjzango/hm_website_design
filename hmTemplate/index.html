@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta
+    http-equiv="content-type"
+    content="text/html;charset=UTF-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Hon. Barr. Hannatu Musa Musawa</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.brighttheme.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.2.1/pnotify.buttons.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="preconnect" href="fonts.gstatic.com/index.html" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link
+      href="http://fonts.googleapis.com/css2be9f.css?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700&amp;family=Playfair+Display:wght@100;200;300;400;500;600;700&amp;family=Overpass:wght@200;300;400;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-sans text-gray-700 antialiased bg-white">
+    <div class="h-24 z-50 relative container mx-auto px-6 grid grid-cols-3">
+      <div x-data="{showMenu: false}" class="flex items-center">
+        <button x-on:click="showMenu = true">
+          <svg
+            class="w-8 h-8 text-white"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+        <div
+          x-show="showMenu"
+          class="fixed inset-0 w-full h-full bg-white z-50 text-yellow-900"
+        >
+          <div
+            class="container h-full mx-auto px-6 py-8 relative z-10 flex flex-col items-center justify-center text-2xl uppercase font-bold tracking-widest space-y-6"
+          >
+            <button
+              x-on:click="showMenu = false"
+              class="absolute top-0 left-0 mt-8 ml-6"
+            >
+              <svg
+                class="w-8 h-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
+              </svg>
+            </button>
+            <a
+              href="index.html"
+              class="inline-block border-b-4 border-transparent hover:border-yellow-900"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="inline-block border-b-4 border-transparent hover:border-yellow-900"
+              >About Barr Hannatu Musa Musawa</a
+            >
+            <a
+              href="@"
+              class="inline-block border-b-4 border-transparent hover:border-yellow-900"
+              >Sppeches</a
+            >
+            <a
+              href="#"
+              class="inline-block border-b-4 border-transparent hover:border-yellow-900"
+              >Press Briefing </a
+            >
+          </div>
+          <div
+            class="absolute inset-0 w-full h-full bg-yellow-900 bg-opacity-20"
+          ></div>
+        </div>
+      </div>
+      <div class="flex items-center justify-center">
+        <a
+          href="#"
+          class="text-white uppercase font-bold text-2xl tracking-widest"
+          >HM</a
+        >
+      </div>
+      <div class="flex items-center justify-end">
+        <a href="mailto:info@hannatumusawa.com"
+          ><svg
+            class="w-8 h-8 text-white"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            ></path></svg
+        ></a>
+      </div>
+    </div>
+    <div
+      class="w-full h-24 bg-yellow-900 bg-opacity-95 absolute top-0 left-0"
+    ></div>
+    <div class="-mt-24 relative w-full py-12 px-12 bg-yellow-900">
+      
+        <div class="relative z-10 text-center py-24 md:py-48">
+            <h1 class="text-white text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold mb-12" >
+                
+            </h1>
+        </div>
+        <div class="relative z-10 mx-auto max-w-4xl flex justify-center uppercase text-white font-heading tracking-widest text-sm">
+          <div x-data="{ showModal: false }">
+            <!-- Trigger the modal with the "Book an Appointment" link -->
+            <a href="#" class="inline-block bg-yellow-800 text-white uppercase text-sm tracking-widest font-heading px-8 py-4" @click="showModal = true">Book an Appointment</a>
+        
+            <!-- Modal -->
+            <div x-show="showModal" class="fixed inset-0 flex items-center justify-center z-50">
+              <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
+        
+              <div class="modal-container bg-white w-full max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto p-4">
+                <div class="modal-content py-4 text-left px-6" style="color: #333;"> <!-- Adjust the text color to dark -->
+                  <!-- Place your form here -->
+                  <form method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                      <label for="name">Your Name:</label>
+                      <input type="text" id="name" name="name" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="phone">Phone Number:</label>
+                      <input type="tel" id="phone" name="phone" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="preferred_date">Preferred Date:</label>
+                      <input type="date" id="preferred_date" name="preferred_date" required class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="purpose_of_meeting">Purpose of Meeting:</label>
+                      <textarea id="purpose_of_meeting" name="purpose_of_meeting" rows="4" required class="form-control"></textarea>
+                    </div>
+        
+                    <div class="mt-4 text-center">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button @click="showModal = false" class="btn btn-secondary ml-2">Close</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                
+      <img
+        src="assets/4Z2A1005.jpg"
+        class="w-full h-full absolute inset-0 object-cover opacity-70"
+      />
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div class="bg-white p-12 md:p-24 flex justify-end items-center">
+        <a href="blog/this-is-latest-post/index.html"
+          ><img
+            src="assets/4Z2A0676.jpg"
+            class="w-full max-w-md"
+        /></a>
+      </div>
+      <div class="bg-gray-100 p-12 md:p-24 flex justify-start items-center">
+        <div class="max-w-md">
+          <div class="w-24 h-2 bg-yellow-800 mb-4"></div>
+          <h2
+            class="font-display font-bold text-2xl md:text-3xl lg:text-4xl mb-6"
+          >
+            A Creative Journey Begins
+          </h2>
+          <p
+            class="font-light text-gray-600 text-sm md:text-base mb-6 leading-relaxed"
+          >
+          Step into the vibrant world of Hannatu Musawa, The Minister of Art, Culture, and Creative Economy. Here, imagination knows no bounds, and creativity reigns as a powerful catalyst for transformation.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+    <img
+      src="assets/4Z2A0967.jpg"
+      class="w-full h-screen object-cover"
+    />
+    <div class="max-w-xl mx-auto text-center py-24 md:py-32">
+      <div class="w-24 h-2 bg-yellow-800 mb-4 mx-auto"></div>
+      <h2 class="font-display font-bold text-3xl md:text-4xl lg:text-5xl mb-6">
+        About Minister Hannatu Musawa:
+      </h2>
+      <p class="font-light text-gray-600 mb-6 leading-relaxed">
+        Hannatu Musawa is a visionary leader who has dedicated her life to promoting the arts, culture, and the creative economy. With a passion for creativity and a deep understanding of its transformative power, she brings a fresh perspective to Nigeria's cultural landscape.
+      </p>
+    </div>
+    <div class="flex flex-wrap bg-black">
+      <a
+        href="#"
+        class="bg-black relative w-full md:w-auto md:flex-1 flex items-center justify-center h-72 font-heading text-white uppercase tracking-widest hover:opacity-75"
+        ><div class="relative z-10" style="text-align: center;">Culture and creativity unite us, breathing life into our nation. Let's harness our creative potential for a brighter future</div>
+        <img
+          src="assets/4Z2A1887.JPG"
+          class="absolute inset-0 w-full h-full object-cover opacity-50"
+        /> </a
+      ><a
+        href="#"
+        class="bg-black relative w-full md:w-auto md:flex-1 flex items-center justify-center h-72 font-heading text-white uppercase tracking-widest hover:opacity-75"
+        ><div class="relative z-10 " style="text-align: center;">Art speaks a universal language, bridging divides and sparking innovation. Nigeria's creative spirit is our greatest asset</div>
+        <img
+          src="assets/DSC_8129.jpg"
+          class="absolute inset-0 w-full h-full object-cover opacity-50"
+        /> </a
+      ><a
+        href="#"
+        class="bg-black relative w-full md:w-auto md:flex-1 flex items-center justify-center h-72 font-heading text-white uppercase tracking-widest hover:opacity-75"
+        ><div class="relative z-10" style="text-align: center;">In the canvas of culture, every stroke tells a story. Together, we paint a vibrant, prosperous Nigeria.</div>
+        <img
+          src="assets/4Z2A1803.JPG"
+          class="absolute inset-0 w-full h-full object-cover opacity-50"
+      /></a>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div class="bg-white p-12 md:p-24 flex justify-start items-center">
+        <a href="blog/my-third-big-post/index.html"
+          ><img
+            src="assets/DSC_8201.jpg"
+            class="w-full max-w-md"
+        /></a>
+      </div>
+      <div
+        class="md:order-first bg-gray-100 p-12 md:p-24 flex justify-end items-center"
+      >
+        <div class="max-w-md">
+          <div class="w-24 h-2 bg-yellow-800 mb-4"></div>
+          <h2
+            class="font-display font-bold text-2xl md:text-3xl lg:text-4xl mb-6"
+          >
+          Vision and Mission
+          </h2>
+          <p
+            class="font-light text-gray-600 text-sm md:text-base mb-6 leading-relaxed"
+          >
+          Hannatu Musawa envisions a Nigeria where creativity thrives, cultural diversity is celebrated, and the arts are recognized as a vital engine of economic growth. Her mission is to harness the nation's rich cultural heritage and creativity to drive prosperity, unity, and innovation.
+          </p>
+          </div>
+      </div>
+    </div>
+    <div class="relative w-full py-12 px-12">
+      <div class="relative z-10 text-center py-12 md:py-24">
+        <h1
+          class="text-black text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-display font-bold mb-6"
+        >
+        Future of Culture and Creativity:
+        </h1>
+        <p class="text-black mb-10 text-base md:text-lg font-bold ">
+            Get a glimpse into the future as Minister Musawa outlines her vision for the growth and development of Nigeria's creative economy. Learn how her 8-Point plan is set to transform the cultural landscape.
+
+        </p>
+      </div>
+      <img
+        src="assets/4Z2A0995.jpg"
+        class="w-full h-full absolute inset-0 object-cover"
+      />
+    </div>
+    
+
+    <script src="assets/js/alpine.js"></script>
+
+  </body>
+
+</html>
